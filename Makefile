@@ -7,5 +7,9 @@ help:
 	git branch
 
 switch-to-public:
-	git checkout  master
+	git checkout master
 	verde "This is PUBLIC. Beware of what you write here :)"
+
+switch-to-private:
+	git checkout dev
+	red "This is PRIVATE. Write whatever you want but make sure you only push to pvt repo ;)"
